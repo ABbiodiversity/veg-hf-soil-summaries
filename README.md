@@ -245,3 +245,5 @@ Once loaded, there are 3 objects:
   - `"sample_year"`: sample (or base) year associated with each UID
 * `.veghf_settings`: hidden object storing the user inputs, date, and session info
 
+*This repository originates from the archived <https://github.com/ABbiodiversity/recurring> project.*
+
