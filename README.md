@@ -6,8 +6,8 @@ and produces output in long and wide format (also deals with unknown ages).
 ## How to get it
 
 Clone this repo or download as a zip file and extract.
-Now you can use the `/veghf` folder as required.
-Keep files in the folder in the same folder.
+Now you can use the folder as required.
+Keep files in the folder and start your R session by setting the work directory to this folder.
 
 ## Usage
 
