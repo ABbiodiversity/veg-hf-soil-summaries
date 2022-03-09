@@ -317,7 +317,11 @@ HF_fine=TRUE, widen_only=FALSE, tol=0, unround=FALSE) {
             return(d)
     }
 
-    SoilHFLab <- levels(d$SOILHFclass)
+    ## Labels for output columns
+    #    SoilHFLab <- levels(d$SOILHFclass)
+    SoilHFLab <- c(HFLab, SoilLab)
+    levels(d$SOILHFclass) <- c(levels(d$SOILHFclass), setdiff(SoilHFLab, levels(d$SOILHFclass)))
+
     #### crosstabs
     ## veg reference
     VegRf <- Xtab(Shape_Area ~ LABEL + VEGAGEclass, d)
