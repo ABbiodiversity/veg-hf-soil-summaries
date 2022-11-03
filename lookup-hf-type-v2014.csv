@@ -210,3 +210,4 @@ CULTIVATION_ABAND,CultivationCropPastureBareground,CultivationAbandoned,Cultivat
 HARVEST_AREA,CutBlocks,,CutBlocks,,,,3x7verified,
 TAME-PASTURE,CultivationCropPastureBareground,CultivationTamePasture,CultivationTamePasture,,Use it as Cultivation only?,,3x7verified,Agricultural land that has been cleared of surface vegetation and tilled. Seeded with grass species or alfalfa. Typically used to graze livestock-evidence of livestock may be present; or used for livestock feed production.
 CONVENTIONAL-SEISMIC,SeismicLine,,SeismicLineWide,,,,Offgrid Sites,
+WOODY-VEGETATION-REMOVAL,OtherDisturbedVegetation,,OtherDisturbedVegetation,,New feature type?,,W2W_HF2019,
